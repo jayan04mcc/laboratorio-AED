@@ -49,7 +49,7 @@ void lista_circular::insertar_final(int data){
 
 }
 void lista_circular::imprimir(){
-    nodo *aux=head;
+    nodo *aux=head->sig;
     while(aux!=end_){
         cout<<aux->dato<<"->";
         aux=aux->sig;
